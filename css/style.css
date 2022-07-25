@@ -1,0 +1,284 @@
+/*---------------------
+Google Font
+---------------------**/
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Cabin', sans-serif;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+a {
+    color: #007bff;
+    font-size: 18px !important;
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+}
+
+section {
+    margin-bottom: 120px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+h1.section-title {
+    font-size: 60px;
+}
+
+
+/*------------------------
+Slider button Start
+------------------------*/
+/* .carousel-dark {
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      filter: $carousel-dark-control-icon-filter;
+    } */
+button.button-style {
+    color: #ffffff!important;
+    background-color: #ffffff!important;
+    width: 100px!important;
+    border-radius: 0px;
+    padding: 1px 1px!important;
+}
+span.arrow-style {
+    color: #ffffff!important;
+    background-color: #000000!important;
+    opacity: 1;
+    width: 60px;
+    height: 60px;
+    filter: none!important;
+}
+/*------------------------
+Slider Style Start
+------------------------*/
+header.header {
+    margin-bottom: 120px;
+}
+
+h1.banenr-title {
+    color: #ffffff;
+}
+
+p.banner-des {
+    color: #ffffff;
+    margin: 18px 0px;
+}
+
+a.slider-btn {
+    background-color: #ffffff;
+    color: #007bff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    width: 10%;
+    display: block;
+    margin: 20px auto;
+}
+
+a.slider-btn:hover {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+
+/*------------------------
+Moment Style Start
+------------------------*/
+
+p.moment-des {
+    margin: 20px 0px;
+}
+
+a.moment-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+
+
+/*------------------------
+Package Style Start
+------------------------*/
+
+p.package-des {
+    margin: 20px 0px;
+}
+
+ul.package-ul {
+    list-style: none;
+    padding: 0px;
+    font-size: 18px;
+}
+
+ul.package-ul li {
+    margin: 15px 0px;
+}
+
+i.fa-solid.fa-circle-check {
+    color: #007bff;
+}
+
+a.btn.package-bnt {
+    color: #007bff;
+    width: 70%;
+    display: block;
+    background-color: #007bff33;
+    padding: 15px 26px;
+    border-radius: 50px;
+}
+
+span.package-span {
+    margin-left: 10px;
+}
+
+.package-boxs {
+    box-shadow: 0px 0px 1px 0px #ccc;
+    padding: 55px 35px;
+    border-radius: 20px;
+}
+
+.active {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 20px;
+}
+.active i.fa-solid.fa-circle-check {
+    color: #ffffff;
+}
+a.package-bnt {
+    background-color: #007bff33;
+    width: 100%;
+    display: block;
+    color: #007bff;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+
+.active.package-btn {
+    background-color: #fff;
+}
+
+.active a.package-bnt {
+    background-color: #fff;
+}
+
+
+/*------------------------
+Client  Style Start
+------------------------*/
+
+.client-boxs {
+    padding: 50px 38px;
+    box-shadow: 1px 6px 10px 0px #ccc;
+    border-radius: 10px;
+}
+
+h5.client-name {
+    margin: 14px 0px;
+}
+
+/*------------------------
+Question  Style Start
+------------------------*/
+.question-boxs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+button.accordion-button:focus {
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+h3.according-title {
+    font-size: 21px;
+}
+.accordion-header{
+    border-top:1px solid #ccc;
+    
+}
+
+/* .accordion-item.max-height-600 {
+    margin-bottom: 33px 0px;
+} */
+
+.item-border {
+    border: 1px solid #ccc;
+}
+.item-border{
+    border:none;
+}
+.button-border {
+   
+    padding: 15px 0px;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+.item-border {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/*------------------------
+Footer  Style Start
+------------------------*/
+
+footer.footer {
+    background-color: #090909e3;
+}
+
+p.footer-des.text-muted {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.right {
+    display: flex;
+    height: 164px;
+    flex-direction: column;
+}
+
+.footer-img-wrap {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h6.footer-title {
+    color: #ffffff;
+}
+
+img.brand-img {
+    display: block;
+}
